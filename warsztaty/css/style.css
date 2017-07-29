@@ -20,14 +20,10 @@ img {
 }
    
 
- li.menu-item > a {
+li.menu-item >  a {
 
     text-decoration: none; 
     color: #ffffff;    
-}
-
- li.menu-item > a:hover {
-    color: #999;
 }
 
 /*.menu, ul, li {*/
