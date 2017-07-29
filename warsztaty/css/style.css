@@ -20,13 +20,13 @@ img {
 }
    
 
-nav#menu > ul > li.menu-item  a {
+ li.menu-item  a {
 
     text-decoration: none; 
     color: #ffffff;    
 }
 
-nav#menu > ul > li.menu-item  a:hover {
+ li.menu-item  a:hover {
     color: #999;
 }
 
