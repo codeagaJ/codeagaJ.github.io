@@ -20,14 +20,14 @@ img {
 }
    
 
-#navmenu > ul > .li.menu-item  a {
+nav#menu > ul > li.menu-item  a {
 
     text-decoration: none; 
     color: #ffffff;    
 }
 
-navmenu > ul > .li.menu-item  a:hover {
-    color: ##999;
+nav#menu > ul > li.menu-item  a:hover {
+    color: #999;
 }
 
 /*.menu, ul, li {*/
