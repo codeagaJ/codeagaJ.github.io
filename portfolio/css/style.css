@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+font-family: 'Lato', sans-serif;
+color: #291f1a;
+font-weight: 300;
+margin: 0;
+
+}
+
+/*Main menu styles start*/
+
+#menu-nav {
+position: fixed;
+background-color: #ffffff; 
+width: 100%;
+top: 0;
+right: 0;
+    
+}
+
+#menu-nav > ul {
+    float: right;
+    margin: 0;
+}
+
+#menu-nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px
+}
+
+#menu-nav > ul > li > a {
+    font-weight: 300;
+    color: #1ac056;
+    text-decoration: none;
+    
+}
+
+/*header style start*/
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#main-header .main-header-content {
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*section about: */
+
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+
+section {
+   padding: 0 80px 100px;
+    width: 100%;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about > figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+#about > article {
+    width: 50%;
+    float: left;
+    
+}
+
+#about > figure > img {
+    max-width: 350px;
+    max-width: 100%;
+    border: 15px solid #fff;
+    border-radius: 15px;
+}
+
+/*section about stop*/
+
+/*section skills start*/
+
+
+#skills > p {
+    text-align: center;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills div#skills-icons figure {
+    display: inline-block;
+}
+#skills div#skills-icons figure img {
+    margin-bottom: 15px;
+}
