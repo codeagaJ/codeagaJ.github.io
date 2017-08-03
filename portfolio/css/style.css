@@ -104,10 +104,10 @@ section h2 {
 
 /*section about stop*/
 
-/*section skills start*/
 
+/* Section Skills Styles Stop */
 
-#skills > p {
+#skills > p{
     text-align: center;
 }
 
@@ -115,9 +115,14 @@ section h2 {
     text-align: center;
 }
 
-#skills div#skills-icons figure {
+#skills #skills-icons figure {
     display: inline-block;
 }
-#skills div#skills-icons figure img {
+
+#skills #skills-icons figure img {
     margin-bottom: 15px;
+   
 }
+
+/* Section Skills Styles Stop */
+
