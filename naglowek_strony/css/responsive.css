@@ -7,6 +7,7 @@ body {
     overflow-y: hidden;
     
     
+    
 }
 
 header#header {
@@ -21,11 +22,12 @@ header#header {
     header#header {
         background-image: url("../img/man-1.jpg");
         background-size: cover;
-        padding: 45vh;
+        padding: 23%;
         background-position: center;
         position: relative;
-/*        overflow-y: hidden;*/
+
     }
+    
     div.main-content {
         position: absolute;
         left: 2%;
@@ -44,21 +46,20 @@ header#header {
 /*zakres rozdzielczości pomiędzy 992px a 1169px*/
 
 @media screen and (min-width: 992px) and (max-width: 1169px) {
+    
     header#header {
         background-image: url("../img/man-2.jpg");
         background-size: cover;
         background-position: center;
-        padding: 40vh;
+        padding: 26%;
         width: 70%;
-        position: relative;
-/*        overflow-y: hidden;*/
-        
+        position: relative;     
         
     }
     
     div.main-content {
         position: absolute;
-        right: 23%;
+        right: 20%;
         top: 10%;
     }
     
@@ -82,9 +83,7 @@ header#header {
         width: 50%;
         padding: 25%; 
         position: relative;
-/*        overflow-y: hidden;*/
-       
-        
+               
     }
     
     div.main-content {
