@@ -4,10 +4,8 @@ body {
     font-family: Verdana;
     font-size: 30px;
     margin: 0;
-    overflow-y: hidden;
-    
-    
-    
+    overflow: hidden;
+        
 }
 
 header#header {
