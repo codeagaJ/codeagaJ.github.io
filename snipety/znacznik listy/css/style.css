@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana;
+}
+
+#container {
+    width: 400px;
+    height: 250px;
+}
+
+#container ul.menu-list {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+
+#container h2 {
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+ul.menu-list li.menu-list-item {
+    font-size: 23px;
+    list-style-type: none;
+    margin: 0 0 10px 10px;
+}
+
+ul.menu-list li.one::before {
+    content: "\f072";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    color: blue;
+/*
+    color: #fff;
+    border-radius: 50%;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    display: block;
+    
+*/
+}
+
+
+
+ul.menu-list li.two::before {
+    content: "\f238";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 42px;
+    left: 10px;
+    color: green;
+}
+
+ul.menu-list li.third::before {
+    content: "\f207 ";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 82px;
+    left: 10px;
+    color: burlywood;
+}
+
+ul.menu-list li.four::before {
+    content: "\f236";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 119px;
+    left: 10px;
+}

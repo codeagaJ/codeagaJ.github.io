@@ -1,0 +1,51 @@
+#section-all {
+    width: 100%;
+    height: 200px;   
+}
+
+#section-all .sections {
+    width: 25%;
+    float: left;
+    height: 100%;
+    transition: all 1s linear;
+}
+
+
+#section-all  .section-one {
+    
+    background-color: aqua;
+    
+}
+
+
+#section-all .section-two {
+    background-color: orange;
+
+}
+
+#section-all .section-third {
+    background-color: violet;
+
+}
+
+#section-all .section-fourth {
+    background-color: red;
+
+}
+
+
+
+
+/*hover*/
+
+#section-all:hover .sections {
+    width: 40%;
+ 
+}
+
+#section-all:hover .sections:not(:hover) {
+    width: 20%;
+}
+
+
+

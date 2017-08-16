@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="https://formspree.io/jakubowska.ag@gmail.com" method="POST">
+
+        <label for="name">Imię</label>
+        <input type="text" name="firstname" id="name" placeholder="imię">
+
+        <label for="lastname">Nazwisko</label>
+        <input type="text" name="lastname" id="lastname" placeholder="nazwisko">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+
+        <label for="telephone">Nr telefon</label>
+        <input type="tel" name="number" id="telephone" placeholder="numer telefonu">
+
+        <label for="city">Miasto</label>
+        <select name="city" id="city">
+          <option value="kraków">kraków</option>
+          <option value="warszawa">warszawa</option>
+          <option value="gdańsk">gdańsk</option>
+        </select>
+        
+        <label for="message">Wiadomość</label>
+        <textarea name="text" id="message" cols="30" rows="10" placeholder="Wpisz wiadomość"></textarea><br>
+
+        <input type="submit" value="wyślij">
+    </form>
+</body>
+</html>

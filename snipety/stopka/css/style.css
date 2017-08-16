@@ -1,0 +1,11 @@
+
+
+#stopka {
+    position: fixed;
+    height: 40px;
+    background-color: skyblue;
+    width: 100%;
+    bottom: 0;
+    line-height: 40px;
+    text-align: center;
+}

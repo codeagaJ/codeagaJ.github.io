@@ -1,0 +1,222 @@
+/*RESPONSYWNOŚĆ ROZDZIELCZOSCIAMI*/
+
+
+/*ROZDZIELCZOŚĆ 1200PX*/
+
+/*responsywne section portfolio*/
+
+@media all and (max-width: 1200px) {
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 50%;
+    }
+    #portfolio .portfolio-items .single-portfolio-item:last-child {
+        width: 100%;
+    }
+}
+
+        /*ROZDZIELCZOŚĆ 992PX*/
+
+/*responsywne menu*/
+
+@media all and (max-width: 992px) {
+    #menu-nav .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        font-size: 20px;
+        color: #1ac056;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    
+    #menu-nav ul {
+        display: none;
+    }
+    
+    #menu-nav #drop:checked+ul {
+        display: block;
+    }
+    
+    #menu-nav > ul > li {
+        display: block;
+        text-align: right;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    /*   responsywny header */
+    
+    #main-header .main-header-content {
+        padding: 10%;
+    }
+    
+    /*    responsywna section about*/
+    #about figure {
+        width: 100%;
+    }
+    
+    #about figure img {
+        max-height: inherit;
+    }
+    
+    #about article {
+        width: 100%;
+    }
+    
+    /*    responsywna section portfolio*/
+    
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 100%;
+    }
+    
+    /*    responsywna section contact*/
+    
+    #contact .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #contact .contact-form {
+        width: 100%;
+    }
+    
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+    }
+    
+    #contact .contact-data h2 {    
+        text-align: center;
+    }
+}
+
+    /*ROZDZIELCZOŚĆ 768PX*/
+
+@media all and (max-width: 768px) {
+    
+    #main-header .main-header-content h1 {
+        font-size: 2em;
+    }
+    #main-header .main-header-content h2 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+    
+
+
+/*RESPONSYWNOŚĆ SEKCJAMI INNY SPOSÓB*/
+/*responsywne menu*/
+
+
+/*
+@media all and (max-width: 992px) {
+    
+    #menu-nav .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        font-size: 20px;
+        color: #1ac056;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+            
+    }
+    
+    #menu-nav ul {
+        display: none;
+    }
+    #menu-nav #drop:checked + ul {
+        display: block;
+    }
+    #menu-nav > ul > li {
+    display: block;
+    text-align: right;
+    padding: 20px;
+    width: 100%;
+    }
+    
+    
+
+}
+*/
+
+
+/*Responsywny section about*/
+
+
+/*
+@media all and (max-width: 992px) {
+    #about  figure {
+        width: 100%;
+    }
+    #about  figure  img {
+        max-height: inherit;
+    }
+    #about  article {
+        width: 100%;
+    }
+}
+*/
+
+
+/*Responsywny section nagłówek*/
+
+
+/*
+@media all and (max-width: 992px) {
+    
+#main-header .main-header-content {
+        padding: 10%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    
+    #main-header .main-header-content h1 {
+        font-size: 2em;
+        
+    }
+    #main-header .main-header-content h2 {
+        font-size: 1.5em;
+    }
+}
+*/
+
+
+/*rosponsywnosc section contact*/
+
+
+/*
+@media all and (max-width: 992px) {
+    
+    #contact .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    #contact .contact-form {
+        width: 100%;
+        
+    }
+    #contact .contact-data .contact-social-icons a {
+        margin: 0;
+    }
+
+/*
+@media all and (max-width: 992px) {
+    
+    #portfolio .portfolio-items .single-portfolio-item {
+         width: 100%;
+     }
+*/
+
+
+/*}*/
+
+*/

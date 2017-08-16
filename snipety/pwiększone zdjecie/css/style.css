@@ -1,0 +1,35 @@
+
+
+.box {
+    position: relative;
+}
+
+
+.box img {
+    height: 200px;
+    width: 200px;
+    transition: all 1s;
+    transition-timing-function: linear;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+/*    transform-origin:  30% 60%;*/
+    
+}
+
+
+
+/*scalowanie*/
+
+.box img:hover {
+    transform: scale(1.7,1.5);
+}
+
+/*drugi sposob*/
+
+/*
+.box img:hover {
+    width: 300px;
+    height: 250px;
+}
+*/

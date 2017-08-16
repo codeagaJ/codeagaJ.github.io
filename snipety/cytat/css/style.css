@@ -1,0 +1,29 @@
+q:lang(en) {
+    quotes: "*" "*";
+}
+
+q {
+    quotes: '"' '"';
+}
+
+blockquote[lang="en"]::before {
+    content: "*";
+}
+
+blockquote[lang="en"]::after {
+    content: "*";
+}
+
+blockquote::before {
+    content: '"';
+}
+
+blockquote::after {
+    content: '"';
+}
+
+q, blockquote  {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}

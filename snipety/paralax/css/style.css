@@ -1,0 +1,63 @@
+body,h1,h2,h3,h4,h5,h6 
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    
+   
+}
+
+
+
+.w3-top #myNavbar li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.w3-top #myNavbar li a {
+   text-decoration: none;
+    color: #777;
+}
+  
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* First image  */
+.bgimg-1 {
+    background-image: url("../img/coffe.jpg");
+    min-height: 100%;
+}
+
+/* Second image  */
+
+.bgimg-2 {
+    background-image: url("../img/smartfon.jpg");
+    min-height: 400px;
+}
+
+/*
+.bgimg-3 {
+    background-image: url("../img/desktop.png");
+    min-height: 400px;
+}
+*/
+/* Adjust the position of the parallax image text */
+.w3-display-middle {bottom: 45%;}
+
+.w3-wide {letter-spacing: 10px;}
+
+.w3-hover-opacity {cursor: pointer;}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    width: 600px;
+    padding: 20px;
+    
+}
+
+
+form label  {
+    display: block;
+}
+
+input[type=submit] {
+    display: block;
+}
+
+/*placeholder inny kolor*/
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #909;
+}
+
+/*Inny zapis*/
+
+/*
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: red;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: red;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: red;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: red;
+}
+*/
+    

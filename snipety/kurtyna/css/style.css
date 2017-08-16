@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#intro {
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+#intro::before,
+#intro::after {
+    -webkit-animation: curtain 2s;
+    -moz-animation: curtain 2s;
+    -o-animation: curtain 2s;
+    animation: curtain 2s;
+    background-color: lightskyblue;
+    right: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+#intro::before {
+    top: 0;
+}
+
+#intro::after {
+    bottom: 0;
+}
+
+.box {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.box .box-inner {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-image: url("../img/cloud.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@-webkit-keyframes curtain {
+    0%,
+    50% {
+        height: 50%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@-moz-keyframes curtain {
+    0%,
+    50% {
+        height: 50%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@-o-keyframes curtain {
+    0%,
+    50% {
+        height: 50%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@keyframes curtain {
+    0%,
+    50% {
+        height: 50%;
+    }
+    100% {
+        height: 0;
+    }
+}
