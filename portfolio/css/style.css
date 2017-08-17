@@ -60,11 +60,16 @@ body {
     padding: 30vh;
 }
 
-#main-header .main-header-content h1,
-h2 {
+#main-header .main-header-content h1
+ {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: 500;
+}
+
+/*dodałam zmiana koloru dla h2 na biały, tak zeby w sekcji about i skills był czarny*/
+#main-header .main-header-content h2 {
+    color: #fff;
 }
 
 
