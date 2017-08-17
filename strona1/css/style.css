@@ -1,0 +1,415 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+2.Style globalne
+ */
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #F4F3EF;
+  font-weight: 400;
+  color: #696969;
+}
+
+a {
+  text-decoration: none;
+}
+section {
+  padding: 0 10%;
+  text-align: center;
+}
+
+
+/*
+3.Typografia
+ */
+p {
+  font-size: 14px;
+  line-height: 1.6;
+
+}
+
+/*.offer-acapit {
+	font-size: 18px;
+  line-height: 1.6;
+	display: none;
+}
+*/
+
+.section-welcome p {
+	display: none;
+}
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
+/*
+4.Komponenty
+ */
+
+ .section-header {
+   padding: 42px 0 20px;
+   font-size: 18px;
+   color: #FF5733;
+   text-align: center;
+ }
+
+@media screen and (min-width: 1024px) {
+  .section-header {
+    padding: 0;
+  }
+}
+
+/*
+5.Nagłówek
+ */
+
+header {
+  text-align: center;
+}
+
+.logo {
+  padding: 10px 0;
+
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+  padding: 20px 0;
+
+  }
+}
+
+.top {
+  padding: 75px 0 40px;
+  background: url('../img/top.jpg')0,0;
+  font-family: 'Source Serif Pro', serif;
+  color: #FFFFFF;
+  margin: 0, 30px;
+  text-transform: uppercase;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .top {
+    padding: 150px 0 100px;
+  }
+}
+.top h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .top h1{
+    margin-bottom: 50px;
+    font-size: 45px;}
+  }
+  .top p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+@media screen and (min-width: 1024px) {
+  .top p {
+    font-size: 35px;
+
+  }
+}
+.top a {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 1px solid #FFFFFF;
+  margin: 20px 0 0;
+  font-family: 'Rubik', serif;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 1024px) {
+ .top a {
+   font-size: 24px;
+   margin: 40px 0 0;
+   padding: 20px 40px;
+  }
+}
+.top a:hover {
+  background-color: #FFFFFF;
+  color: #404040;
+}
+
+nav {
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 0 #DEDEDE;
+  text-transform: uppercase;
+}
+nav li {
+  padding: 15px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  nav li {
+    display: inline-block;
+    padding: 40px 60px;
+
+  }
+}
+
+ul li a {
+  color: #202020;
+}
+ ul li:hover {
+  background-color: #F08080;
+  color: red;
+}
+
+@media screen and (min-width: 1024px) {
+  nav a {
+    font-size: 22px
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-welcome h1 {
+    margin: 60px 0 60px;
+    font-size: 35px;
+  }
+
+  .section-offer h1 {
+    margin: 60px 0 60px;
+    font-size: 35px;
+  }
+  .section-offer p {
+    margin: 0 0 30px;
+  }
+}
+.section-describe {
+  background: url('../img/desen_tlo.jpg') 0,0;
+  padding: 40px 10% 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-describe {
+    padding: 60px 10% 70px;
+  }
+}
+.section-describe-inner img {
+  margin: 0 0 30px;
+
+}
+
+.section-describe-inner:first-child {
+  padding: 0 0 30px;
+}
+.section-describe-inner p {
+  color: #FFFFFF;
+  text-align: justify;
+}
+.fb {
+  float: left;
+  padding:  20px 25px;
+
+}
+.tw a{
+  float: left;
+  padding: 20px 25px;
+
+  color: #00BFFF;
+
+
+}
+.yb a {
+  float: left;
+  padding: 20px 25px;
+  color: red;
+}
+.mail {
+  float: left;
+  padding: 20px 25px;
+  color: #202020;
+}
+
+
+.section-social {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+.social-links {
+  padding: 10px 0;
+
+}
+.tw a:hover {
+  background-color: #00BFFF;
+  color: #FFFFFF;
+}
+
+.yb a:hover {
+  background-color: red;
+  color: #FFFFFF;
+}
+.mail:hover {
+  background-color: #202020 ;
+  color: #FFFFFF;
+}
+footer {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 0 10px;
+}
+
+.section-contakt {
+  display: flex;
+
+}
+
+.section-contakt h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Rubik', serif;
+  padding: 30px 20px;
+  color: #202020;
+}
+.article-kontakt {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.section-contact-form {
+  padding: 50px 0 20px;
+}
+.section-contact-form input,
+.section-contact-form textarea,
+.section-contakt-form legend {
+  display: block;
+  width: 80%;
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid #D2CFC6;
+  margin: 10px auto 12px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form input,
+  .section-contact-form textarea,
+  .section-contact-form legend {
+    width: 50%;
+  }
+
+.section-contact-form input {
+  height: 30px;
+}
+
+@media screen and (min-width: 1024px){
+  .section-contact-form input {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+.section-contact-form textarea {
+  font-size: 16px;
+  height: 130px;
+  padding: 10px 0 0;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  .section-contact-form textarea {
+    height: 200px;
+  }
+}
+
+.section-contact-form legend {
+  text-transform: uppercase;
+  padding: 20px 0 10px;
+  font-weight: 600;
+  color: #FF4500;
+  font-size: 20px;
+}
+
+.section-contact-form button {
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color:  #FF4500;
+  color: #FFFFFF;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  margin: 25px 0 0;
+}
+
+#toTopButton {
+    background-color: #A0A0A0;
+    width: 100px;
+    height: 30px;
+    padding: 20px 10px 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 700;
+		color: #ffffff;
+
+}
+
+#toTopButton:hover {
+	color: #404040;
+	background-color: #C0C0C0;
+}

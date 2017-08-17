@@ -33,7 +33,7 @@ body {
 #menu-nav>ul>li {
     display: inline-block;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
     text-transform: uppercase;
 }
 
