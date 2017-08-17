@@ -2,50 +2,51 @@
     box-sizing: border-box;
 }
 
-
 body {
-
-font-family: 'Lato', sans-serif;
-color: #291f1a;
-font-weight: 300;
-margin: 0;
-
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+    margin: 0;
 }
+
 
 /*Main menu styles start*/
 
-#menu-nav .toggle, #drop {
+#menu-nav .toggle,
+#drop {
     display: none;
 }
 
- 
-
 #menu-nav {
-position: fixed;
-background-color: #ffffff; 
-width: 100%;
-top: 0;
-right: 0;
-    
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
 
-#menu-nav > ul {
+#menu-nav>ul {
     float: right;
     margin: 0;
 }
 
-#menu-nav > ul > li {
+#menu-nav>ul>li {
     display: inline-block;
     list-style: none;
     padding: 20px;
+    text-transform: uppercase;
 }
 
-#menu-nav > ul > li > a {
+#menu-nav>ul>li>a {
     font-weight: 300;
     color: #1ac056;
     text-decoration: none;
-    
 }
+
+#menu-nav>ul>li>a:hover {
+    color: #000;
+}
+
 
 /*header style start*/
 
@@ -59,20 +60,30 @@ right: 0;
     padding: 30vh;
 }
 
-#main-header .main-header-content h1, {
+#main-header .main-header-content h1,
+h2 {
     font-family: 'Roboto', sans-serif;
-/*    color: #fff;*/
+    color: #fff;
+    font-weight: 500;
 }
 
-/*section about: */
+
+/*header style stop*/
 
 
-h1,h2,h3,h4,h5,h6 {
+/*section about start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-align: center;
 }
 
 section {
-   padding: 0 80px 100px;
+    padding: 0 80px 100px;
     width: 100%;
 }
 
@@ -88,34 +99,36 @@ section h2 {
     overflow: hidden;
 }
 
-#about > figure {
+#about>figure {
     width: 50%;
     float: left;
     margin: 0;
     text-align: center;
-
 }
 
-#about > article {
+#about>article {
     width: 50%;
     float: left;
-    
+    text-align: justify;
 }
 
+
 /*sprawdzić*/
-#about  figure  img {
+
+#about figure img {
     max-height: 350px;
     max-width: 100%;
     border: 15px solid #fff;
     border-radius: 15px;
 }
 
+
 /*section about stop*/
 
 
-/* Section Skills Styles Stop */
+/* section skills style start */
 
-#skills > p{
+#skills>p {
     text-align: center;
 }
 
@@ -129,10 +142,11 @@ section h2 {
 
 #skills #skills-icons figure img {
     margin-bottom: 15px;
-   
 }
 
-/* Section Skills Styles Stop */
+
+/* Section Skills Style Stop */
+
 
 /*section contact start*/
 
@@ -141,7 +155,7 @@ section h2 {
     color: #fff;
     overflow: hidden;
 }
- 
+
 span {
     color: green;
 }
@@ -149,23 +163,24 @@ span {
 #contact .contact-data {
     width: 50%;
     float: left;
-    
 }
+
 #contact .contact-data h2 {
     text-align: left;
     font-size: 30px;
 }
+
 #contact .contact-data address {
     font-style: normal;
     line-height: 25px;
     margin: 72px 0;
-
 }
 
 #contact .contact-data address a {
     color: #1ac056;
 }
-  #contact .contact-form {
+
+#contact .contact-form {
     width: 50%;
     float: left;
     margin-top: 100px;
@@ -188,6 +203,7 @@ span {
     background-color: #fff;
 }
 
+
 /*
 #contact .contact-form {
     margin-top: 100px;
@@ -195,20 +211,22 @@ span {
 }
 */
 
- #contact .contact-form input, #contact .contact-form textarea {
+#contact .contact-form input,
+#contact .contact-form textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
-/*    border: 0 solid #2b4a64;*/
-     border: 0px;
+    /*    border: 0 solid #2b4a64;*/
+    border: 0px;
     background-color: #2b4a64;
 }
 
-#contact .contact-form input[type="text"]:focus, 
-#contact .contact-form input[type=email]:focus, 
+#contact .contact-form input[type="text"]:focus,
+#contact .contact-form input[type=email]:focus,
 #contact .contact-form textarea:focus {
     background-color: #426684;
 }
+
 
 /*
  #contact .contact-form input:focus 
@@ -228,16 +246,18 @@ span {
     font-weight: 700;
 }
 
-
 #contact .contact-form input[type=submit]:hover {
     color: #1ac056;
     background-color: #fff;
 }
+
+
 /*section contact stop*/
+
 
 /*section portfolio start*/
 
- #portfolio .single-portfolio-item {
+#portfolio .single-portfolio-item {
     height: 350px;
     width: 33.3333%;
     background-size: cover;
@@ -245,8 +265,6 @@ span {
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
-     
-   
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
@@ -266,8 +284,8 @@ span {
     font-size: 0;
 }
 
- #portfolio .portfolio-items .single-portfolio-item-mask {
-    background-color:  rgba(42,61,79,0.8);
+#portfolio .portfolio-items .single-portfolio-item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -275,18 +293,19 @@ span {
     position: absolute;
     transition: all 0.5 ease-in-out;
 }
- #portfolio .portfolio-items .single-portfolio-item-mask:hover {
+
+#portfolio .portfolio-items .single-portfolio-item-mask:hover {
     opacity: 1;
 }
 
- #portfolio .portfolio-items .single-portfolio-item-mask  .single-portfolio-item-mask-content {
+#portfolio .portfolio-items .single-portfolio-item-mask .single-portfolio-item-mask-content {
     border: 1px solid #fff;
     height: 330px;
     position: relative;
     margin: 10px;
 }
 
- #portfolio .portfolio-items .single-portfolio-item-mask  .single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner {
+#portfolio .portfolio-items .single-portfolio-item-mask .single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -295,16 +314,20 @@ span {
     padding: 5px;
     color: #fff;
     text-align: center;
-     font-weight: 400;
-    
-
+    font-weight: 400;
 }
 
- #portfolio .portfolio-items .single-portfolio-item-mask  .single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner a {
+#portfolio .portfolio-items .single-portfolio-item-mask .single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner a {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
+
+
 /*section portfolio stop*/
+
+
+/*footer start*/
+
 footer {
     background-color: #142634;
     padding: 0 80px;
@@ -312,11 +335,8 @@ footer {
 }
 
 footer p {
-      margin: 0;  
-    }
-
-/*footer start*/
-
+    margin: 0;
+}
 
 
 /*footer stop*/

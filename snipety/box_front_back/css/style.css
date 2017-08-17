@@ -1,51 +1,51 @@
 #container {
-        width:180px;
-        height:240px;
-        margin:0 auto;
-        perspective:300px;
-        -webkit-perspective:300px;
-        background-color: bisque;
-      }
+    width: 180px;
+    height: 240px;
+    margin: 0 auto;
+    perspective: 300px;
+    -webkit-perspective: 300px;
+    background-color: bisque;
+}
 
-      #inner {
-        position:relative;
-        width:100%;
-        height:100%;
-        text-align:center;
-        transition:1s;
-        -webkit-transition:1s;
-        transform-style:preserve-3d;
-        -webkit-transform-style:preserve-3d;
-      }
+#inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    -webkit-transition: 1s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
 
-      #container:hover #inner {
-        transform:rotateY(180deg);
-        -webkit-transform:rotateY(180deg);
-      }
+#container:hover #inner {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
 
-      #front {
-        position:absolute;
-        width:100%;
-        height:100%;
-        background-image: url("../img/kot.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 0 0 4px 8px #FFF inset;       
-        backface-visibility:hidden;
-        -webkit-backface-visibility:hidden;
-      }
+#front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/kot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 4px 8px #FFF inset;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
 
-      #back {
-        position:absolute;
-        width:100%;
-        height:100%;
-        line-height:240px;
-        color:#FFF;
-        font-size:1.6em;
-        background-color:#000;
-        box-shadow:0 0 4px 8px #FFF inset;
-        transform:rotateY(180deg);
-        -webkit-transform:rotateY(180deg);
-        backface-visibility:hidden;
-        -webkit-backface-visibility:hidden;
-      }
+#back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 240px;
+    color: #FFF;
+    font-size: 1.6em;
+    background-color: #000;
+    box-shadow: 0 0 4px 8px #FFF inset;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
