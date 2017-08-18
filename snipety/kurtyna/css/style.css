@@ -10,9 +10,9 @@ body {
 
 #intro::before,
 #intro::after {
--webkit-animation: curtain 2s linear;
--moz-animation: curtain 2s linear;
-animation: curtain 2s linear;
+-webkit-animation: curtain 1s linear;
+-moz-animation: curtain 1s linear;
+animation: curtain 1s linear;
 background-color: darkblue;
 right: 0;
 left: 0;
