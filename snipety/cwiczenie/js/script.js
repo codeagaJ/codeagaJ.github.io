@@ -50,7 +50,7 @@
 //var kursyProgramowania = document.querySelectorAll("#kursyProgramowania li");
 //alert(kursyProgramowania[3].innerHTML);
 
-//zmiana koloru dla 1 elememntu za pomocą queryseclectorall
+//zmiana koloru dla 1 elememntu za pomocą queryseclectorAll
 //var kursyProgramowania = document.querySelectorAll("#kursyProgramowania li");
 //kursyProgramowania[1].style.color= "red";
 
@@ -89,16 +89,17 @@
 
 
 //tworzenie eleemntu jeszcze inaczej ale fajnie
-var listItem = document.createElement("li");
-listItem.textContent = "this is create element";
-var list = document.getElementById("kursyProgramowania");
-//na końcu standardowo i na początku listy drugi przykład
+//var listItem = document.createElement("li");
+//listItem.textContent = "this is create element";
+//var list = document.getElementById("kursyProgramowania");
+////na końcu standardowo i na początku listy drugi przykład
 //list.appendChild(listItem);
-list.insertBefore(listItem, list.firstElementChild);
-//zastąpienie listItem nowym elementem 
-var replaceElement = document.createElement("li");
-replaceElement.textContent = "I am replacing element";
-list.replaceChild(replaceElement,listItem);
+//
+//list.insertBefore(listItem, list.firstElementChild);
+////zastąpienie listItem nowym elementem 
+//var replaceElement = document.createElement("li");
+//replaceElement.textContent = "I am replacing element";
+//list.replaceChild(replaceElement,listItem);
 
 
 //var produkty = ["kot","pies","biedronka", "wrona" ];
