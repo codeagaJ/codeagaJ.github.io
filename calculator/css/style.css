@@ -1,0 +1,28 @@
+#calculator {
+    position: relative;
+    width: 300px;
+    background-color: dodgerblue;
+    border: 2px solid #000;
+    border-radius: 4px;
+    
+}
+
+input[type=button] {
+    width: 20%;
+    font-size: 20px;
+    background-color: lightgray;
+    margin: 2%;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+input[type=text] {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+}
+
+input[type=button]:hover {
+    background-color: grey;
+}

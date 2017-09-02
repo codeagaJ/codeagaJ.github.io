@@ -12,6 +12,7 @@ $(function () {
                 
                 data.innerHTML = 'Dane programisty:' + ' <br>' + 'Imię:' + '  ' + resultData.imie + ' <br> ' +'Nazwisko:' + '  ' + resultData.nazwisko + '<br>' + 'Zawód:' + ' ' + resultData.zawod + '<br>' + 'Firma:'+ ' ' + resultData.firma;
  
+                /*dodaj atrybut do div, dodaj div do body */
                 data.setAttributeNode(atribute);
                 document.body.appendChild(data);
                 

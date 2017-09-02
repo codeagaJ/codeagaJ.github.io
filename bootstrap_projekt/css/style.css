@@ -1,0 +1,33 @@
+#header-main {
+    background-image: url('../img/header/pictures_on_the_wall.jpg');
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+#header-main .header-content-inner h2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#header-main .header-content-inner h1 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+#header-main .header-content-inner a {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+.navbar-header a.navbar-brand,
+.nav  >li >a{
+    color: white;
+    text-transform: uppercase;
+}
+/*
+.navbar-header a.navbar-brand {
+    color: white;
+}*/
