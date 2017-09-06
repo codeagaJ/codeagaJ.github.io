@@ -1,0 +1,48 @@
+@media all and (max-width: 992px) {
+    #bs-example-navbar-collapse-1>ul {
+        text-align: right;
+    }
+    .navbar-toggle {
+        background-color: #1ac056;
+    }
+    #contact .contact-data .contact-social-icons {
+        margin-bottom: 60px;
+    }
+    #contact .contact-data {
+        text-align: center;
+    }
+    #contact h2 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #main-header .main-header-content h1 {
+        font-size: 1.7em;
+        font-weight: 400;
+    }
+    #main-header .main-header-content h2 {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    section h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #main-header .main-header-content h1 {
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+    #main-header .main-header-content h2 {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+    #contact .contact-data .contact-social-icons a .fa {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+}

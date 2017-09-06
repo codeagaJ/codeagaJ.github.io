@@ -227,7 +227,7 @@ span {
 }
 
 #contact .contact-form input[type="text"]:focus,
-#contact .contact-form input[type=email]:focus,
+#contact .contact-form input[type="email"]:focus,
 #contact .contact-form textarea:focus {
     background-color: #426684;
 }
