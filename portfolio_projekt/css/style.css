@@ -131,7 +131,7 @@ section h2 {
 
 /*section portfolio start*/
 
-#portfolio .col-md-4 {
+#portfolio .col-md-4.nopadding {
     padding-right: 0;
     padding-left: 0;
 }
