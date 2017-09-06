@@ -111,6 +111,7 @@ section h2 {
 
 /*section skills start*/
 
+
 #skills p {
     text-align: center;
 }
@@ -129,6 +130,11 @@ section h2 {
 
 
 /*section portfolio start*/
+
+#portfolio .col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 #portfolio .single-portfolio-item {
     position: relative;
