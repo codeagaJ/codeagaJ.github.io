@@ -1,0 +1,51 @@
+@import'variables';
+@import 'mixins';
+
+@media all and (max-width: 981px) {
+    #main-nav {
+        #bs-example-navbar-collapse-1>ul>li {
+            font-size: 0.8em;
+        }
+        .navbar-header .navbar-brand {
+            font-size: 1em;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    #main-nav {
+        background-color: #fff;
+        #bs-example-navbar-collapse-1>ul>li {
+            text-align: right;
+            a {
+                color: #0ed8d6;
+                transition: all 0.4s linear;
+                &:hover {
+                    color: $main-colot-text;
+                }
+            }
+        }
+        .navbar-toggle {
+            background-color: #0ed8d6;
+        }
+    }
+    #main-header .main-header-inner {
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2.5em;
+        }
+    }
+}
+
+@media all and (max-width: 481px) {
+    #main-header .main-header-inner {
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+}

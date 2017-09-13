@@ -1,0 +1,28 @@
+@media all and (max-width: 981px) {
+  #main-nav #bs-example-navbar-collapse-1 > ul > li {
+    font-size: 0.8em; }
+  #main-nav .navbar-header .navbar-brand {
+    font-size: 1em; } }
+
+@media all and (max-width: 768px) {
+  #main-nav {
+    background-color: #fff; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li {
+      text-align: right; }
+      #main-nav #bs-example-navbar-collapse-1 > ul > li a {
+        color: #0ed8d6;
+        transition: all 0.4s linear; }
+        #main-nav #bs-example-navbar-collapse-1 > ul > li a:hover {
+          color: #777777; }
+    #main-nav .navbar-toggle {
+      background-color: #0ed8d6; }
+  #main-header .main-header-inner h1 {
+    font-size: 3em; }
+  #main-header .main-header-inner h2 {
+    font-size: 2.5em; } }
+
+@media all and (max-width: 481px) {
+  #main-header .main-header-inner h1 {
+    font-size: 2em; }
+  #main-header .main-header-inner h2 {
+    font-size: 1.5em; } }

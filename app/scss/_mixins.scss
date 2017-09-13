@@ -1,0 +1,9 @@
+@mixin image-background($url, $position, $size) {
+    background-image: url($url);
+    background-position: $position;
+    background-size: $size;
+    
+}
+//@mixin linear -gradient($from, $color, $color2) {
+//  
+//}

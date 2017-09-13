@@ -1,0 +1,39 @@
+@import'variables';
+@import 'mixins';
+
+#main-nav {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    transition: all 0.4s;
+    .scrolled {
+        background-color: rgba(14,216,214, 0.85);
+    }
+    
+    .navbar-header .navbar-brand {
+        color: #fff;    
+        font-family:  'Droid Serif', serif;
+        font-style: italic;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 1.5em;
+        transition: all 0.4s;
+        
+        &:hover {
+            color: $hover-color;
+        }
+    }
+    #bs-example-navbar-collapse-1 ul > li > a {
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        
+        &:hover {
+            color: $hover-color;
+        }
+        
+    }
+    
+}
