@@ -131,9 +131,9 @@ section h2 {
 
 /*section portfolio start*/
 
-#portfolio .col-md-4.nopadding {
-    padding-right: 0;
-    padding-left: 0;
+#portfolio .col-md-4.no-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 #portfolio .single-portfolio-item {

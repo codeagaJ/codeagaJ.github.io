@@ -1,0 +1,213 @@
+body {
+font-family: 'Roboto Slab', serif;
+margin: 0 ;
+ color: #291f1a;
+    
+}
+
+/*helper*/
+section {
+    padding: 60px 0; 
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+section h2,h3 {
+    margin-bottom: 40px;
+}
+
+/*nav start*/
+#nav {
+    background-color: transparent;
+    border: 0;
+}
+
+#nav #bs-example-navbar-collapse-1 >ul > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+/*nav stop*/
+
+/*header start*/
+
+/*
+#header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)),url('../img/header.jpg');
+    height: 80vh;
+   
+}
+*/
+
+/*
+#header #header-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+*/
+/*header stop*/
+
+/*section about start*/
+
+#about {
+    background-color: #f9fcfe;
+}
+#show {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+#about .slide {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;   
+}
+
+#about .slide::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 645px;
+    color: #33cc66;
+
+
+}
+
+#about .slide-down::after {
+    content: "\f078";
+    font-family: FontAwesome;
+}
+
+/*section about stop*/
+
+/*section activities*/
+
+#activities {
+    background-color:  #fff;
+}
+
+#activities .container-image {
+    background-color: lightgray;
+    height: 200px;
+    transition: all 0.4s linear;
+}
+
+#activities .container-image:hover {
+    background-color: darkgray;
+}
+
+#activities img {
+    
+    margin-top: 40px;
+    margin-left: 25px;
+    
+}
+
+
+#activities p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*section activites stop*/
+
+#galeria {
+    background-color: #f9fcfe;
+}
+
+#galeria .container-item {
+    height: 300px;
+    overflow: hidden;
+    
+}
+
+#galeria .item-image {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s linear;
+   
+}
+
+#galeria .item-image:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#galeria #item-image-1 {
+    background-image: url('../img/galeria_alpy.jpg');
+    
+}
+
+#galeria #item-image-2 {
+    background-image: url('../img/galeria_alpy1.jpg');
+    
+}
+
+#galeria #item-image-3 {
+    background-image: url('../img/galeria_alpy1.jpg');
+    
+}
+#galeria p {
+    text-align: center;
+}
+
+/*section galeria startsection galeria stop*/
+
+/*section climat start*/
+#climat .climat-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)),url('../img/galeria_alpy1.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.4s;
+}
+#climat .climat-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+#climat .climat-image:hover {
+    transform: scale(1.1)
+}
+
+#climat .weather {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#climat .weather .weather-icon {
+    width: 78px;
+    height: 78px;
+    background-color:#808080;
+    line-height: 78px; 
+    color: #fff;
+    border: 1px solid #808080;
+    border-radius: 50%;
+    font-size: 32px;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+#climat .weather .weather-icon:hover {
+    background: #fff;
+    color: #808080;
+    
+}
+/*section climat stop*/
