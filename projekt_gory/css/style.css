@@ -433,6 +433,7 @@ hr {
     /*    position: relative;*/
 }
 
+/*
 #hike h4:after {
     content: "\f183";
     font-family: FontAwesome;
@@ -443,6 +444,12 @@ hr {
     top: 15px;
     font-size: 40px;
     background-color: lightskyblue;
+}
+*/
+ .small-sport-image {
+    position: absolute;
+    left: 210px;
+    top: 0;  
 }
 
 
@@ -473,6 +480,7 @@ hr {
     /*    position: relative;*/
 }
 
+/*
 #bike h4:after {
     content: "\f206";
     font-family: FontAwesome;
@@ -484,6 +492,7 @@ hr {
     font-size: 40px;
     background-color: lightskyblue;
 }
+*/
 
 
 /*bike stop*/
