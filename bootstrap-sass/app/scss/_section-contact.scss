@@ -1,0 +1,46 @@
+@import'variables';
+@import 'mixins';
+#contact {
+//    background-image: linear-gradient(to bottom,rgba(0,0,0, 0.4), rgba(0,0,0, 0.4));
+    @include image-background('../img/footer/world-map.jpg', center, cover);
+    h3,
+    p {
+        color: #fff;
+    }
+    .contact-paragraph {
+        margin-bottom: 40px;
+    }
+    input:not([type='submit']),
+    textarea {
+        width: 100%;
+        border: 0 solid;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    input:not(last-child) {
+        margin-bottom: 30px;
+    }
+    input[type='submit'] {
+        text-transform: uppercase;
+        width: 20%;
+        padding: 20px 10px;
+        background-color: $hover-color;
+        color: #fff;
+        border: 0;
+        transition: all 0.5s;
+        &:hover {
+            background-color: #fff;
+            color: $hover-color;
+        }
+    }
+     ::-webkit-input-placeholder {
+        color: $main-colot-text;
+    }
+     ::-moz-placeholder {
+        color: $main-colot-text;
+    }
+     ::-ms-input-placeholder {
+        color: $main-colot-text;
+    }
+}
