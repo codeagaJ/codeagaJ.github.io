@@ -54,10 +54,16 @@ body {
     background-image: url("../img/background_tlo.jpg");
     background-size: cover;
     background-position: center;
+    height: 90vh;
 }
 
 #main-header .main-header-content {
-    padding: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+/*    padding: 30vh;*/
+    
 }
 
 #main-header .main-header-content h1
@@ -65,6 +71,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: 500;
+     font-size: 40px;
+}
+
+#main-header .main-header-content h2 {
+    font-size: 30px;
 }
 
 /*dodałam zmiana koloru dla h2 na biały, tak zeby w sekcji about i skills był czarny*/
@@ -183,6 +194,7 @@ span {
 
 #contact .contact-data address a {
     color: #1ac056;
+    text-decoration: none;
 }
 
 #contact .contact-form {
@@ -230,6 +242,8 @@ span {
 #contact .contact-form input[type="email"]:focus,
 #contact .contact-form textarea:focus {
     background-color: #426684;
+    outline: none;
+        
 }
 
 
