@@ -1,0 +1,31 @@
+@import'variables';
+@import 'mixins';
+#activities {
+    background-color: $background-section-second;
+    .container-image {
+        background-color: $container-image-color;
+        height: 200px;
+        transition: all 0.4s;
+        &:hover {
+            background-color: $hover-container-image-color;
+        }
+    }
+    img {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    a {
+        color: #000;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    p {
+        text-align: center;
+        margin-top: 25px;
+        font-weight: 600;
+        font-style: italic;
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}

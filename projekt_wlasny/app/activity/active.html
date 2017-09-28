@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt góry</title>
+
+    <!--rwd-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,500,600,700,800,900|Roboto+Slab:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!--font awesome -->
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+    <!--boostrap styles-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <!--custome styles-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!--navigation start-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../">Home</a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../">region</a></li>
+                    <li><a href="../">atrakcje</a></li>
+                    <li><a href="../">galeria</a></li>
+                    <li><a href="../">klimat</a></li>
+                    <li><a href="../">Kontakt</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--navigation stop-->
+
+    <!--header start-->
+    <!--
+<header id = header>
+    <div id="header-inner">
+        <h2>Great moments </h2>
+        <h1>Hight Mountains</h1>
+        <a href=""><button type="button" class = "btn btn-info ">View more</button></a>
+    </div>
+    </header>
+-->
+   
+   <!--header start-->
+   
+    <header id="header">
+        <div class="container-fluid">
+            <!--wyciełam data-ride ="carosel"-->
+            <div id="carousel-example-generic" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="../img/header2.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h4></h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../img/header3.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h4></h4>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/header1.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h4></h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!--header stop-->
+
+    <!--section info-hike start-->
+    <section id="info-hike">
+        <div class="container">
+            <div class="row">
+                <h2>Wędrówki w górach</h2>
+                <p>Alpejskie krajobrazy i przepiękna, górska przyroda zachęcają do spędzania wolnego czasu na świeżym powietrzu</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="info-sport-describe">
+                        <button type="button" id="btn-section">Czytaj Więcej</button>
+                        <div id="show">
+                            <p>Swobodę poruszania się po szlakach latem i zimą umożliwiają zadbane, dobrze przygotowane i wyraźnie oznakowane szlaki i ścieżki, które prowadzą od łagodnych alpejskich hal aż po górskie wyżyny. Przpiękne widoki zarówno zimą jak i latem są w Tyrolu gwarantowane!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section info-hike stop-->
+
+    <!--section hike start-->
+    
+    <section id="hike">
+        <div class="container">
+            <div class="row">
+                <h2>Wybrane trasy do spacerowania</h2>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="sport-container">
+                        <div class="sport-image" id="heikes-image-1"></div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h4>Vent-Similaunhut</h4>
+                    <p class="italic">Trasy spacerowe</p>
+                    <div class="small-sport-image"><img src="../icons/small_hike.png" alt=""></div>
+                    <div class="info-sport">
+                        <p>Długość trasy: 20km</p>
+                        <p>Przewyższenie: 900m</p>
+                        <p>Średni czas wycieczki: 4h</p>
+                        <p class="paragraph-last">Stopień trudności: średni</p>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="sport-container">
+                        <div class="sport-image" id="heikes-image-2"></div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h4>Umahausen-<br>Frischmann</h4>
+                    <p class="italic">Trasy spacerowe</p>
+                    <div class="small-sport-image"><img src="../icons/small_hike.png" alt=""></div>
+                    <div class="info-sport">
+                        <p>Długość trasy: 10km</p>
+                        <p>Przewyższenie: 800m</p>
+                        <p>Średni czas wycieczki: 4h</p>
+                        <p>Stopień trudności: średnki </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section hiking stop-->
+
+
+    <!--section activities start-->
+    <section id="activities">
+        <div class="container">
+            <div class="row">
+                <h2>Inne atrakcje sportowe</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="container-image text-center">
+                        <img src="../icons/cycling.png" class="img-rounded" alt="">
+                    </div>
+                    <a href="../bike/bike.html">
+                        <p>Trasy rowerowe...</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-image text-center">
+                        <img src="../icons/sport.png" class="img-rounded" alt="">
+                    </div>
+                    <a href="../ski/ski.html">
+                        <p>Trasy narciarskie...</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-image text-center">
+                        <img src="../icons/skiing.png" class="img-rounded" alt="">
+                    </div>
+                    <a href="../run/run.html">
+                        <p>Trasy biegowe...</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--section activities stop-->
+    
+<!--    footer start-->
+
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="copyright">Copyright©Agnieszka Jakubowska</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="social">
+                        <a href="http://facebook.com"><i class="fa fa-facebook socials-icons"></i></a>
+                        <a href="http://twitter.com"><i class="fa fa-twitter socials-icons" aria-hidden="true"></i></a>
+                        <a href="http://youtube.com"><i class="fa fa-youtube socials-icons " aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <nav id="footer-nav">
+                        <ul>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Term of use</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--footer stop-->
+
+    <!--jQuery 3.2.1-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--bootstrap js-->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

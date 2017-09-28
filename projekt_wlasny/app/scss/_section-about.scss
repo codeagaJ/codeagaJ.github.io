@@ -1,0 +1,32 @@
+@import'variables';
+@import 'mixins';
+#about {
+    background-color: $background-section;
+    #show {
+        display: none;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .slide {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+//        margin-top: 20px;
+    }
+    .slide::after {
+        content: "\f077";
+        font-family: FontAwesome;
+        position: absolute;
+        left: 680px;
+        color: rgb(112, 128, 144);
+    }
+    .slide-down::after {
+        content: "\f078";
+        font-family: FontAwesome;
+    }
+    .down,
+    .up {
+        text-transform: uppercase;
+    }
+}

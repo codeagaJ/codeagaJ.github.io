@@ -1,0 +1,579 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px; }
+
+section {
+  padding: 80px 0; }
+
+section h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 60px; }
+
+section p {
+  text-align: center; }
+
+section h4,
+h5 {
+  font-weight: 700;
+  text-align: center; }
+
+.header-paragraph {
+  font-family: 'Droid Serif', serif;
+  font-style: italic; }
+
+.socials-icons {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  background-color: #222222;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 50%;
+  margin: 25px 15px 30px 0;
+  text-align: center;
+  transition: all 0.5s; }
+  .socials-icons:hover {
+    background-color: #0ed8d6;
+    color: #222222; }
+
+hr {
+  border-color: black; }
+
+#main-nav {
+  background-color: transparent;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: all 0.4s; }
+  #main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.85); }
+  #main-nav .navbar-header .navbar-brand {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: all 0.4s; }
+    #main-nav .navbar-header .navbar-brand:hover {
+      color: #000; }
+  #main-nav #bs-example-navbar-collapse-1 ul > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s; }
+    #main-nav #bs-example-navbar-collapse-1 ul > li > a:hover {
+      color: #000; }
+
+#about {
+  background-color: #f9fcfe; }
+  #about #show {
+    display: none;
+    text-align: center;
+    margin: 20px 0; }
+  #about .slide {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative; }
+  #about .slide::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 680px;
+    color: slategray; }
+  #about .slide-down::after {
+    content: "\f078";
+    font-family: FontAwesome; }
+  #about .down,
+  #about .up {
+    text-transform: uppercase; }
+
+#activities {
+  background-color: #f7f7f7; }
+  #activities .container-image {
+    background-color: #D0D3D4;
+    height: 200px;
+    transition: all 0.4s; }
+    #activities .container-image:hover {
+      background-color: #B3B6B7; }
+  #activities img {
+    margin-top: 40px;
+    margin-left: 25px; }
+  #activities a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none; }
+  #activities p {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+    font-style: italic; }
+    #activities p:hover {
+      color: #0ed8d6; }
+
+#climat {
+  background-color: #f7f7f7; }
+  #climat h4 {
+    font-weight: 600;
+    padding-top: 20px; }
+  #climat .container-wheather {
+    height: 300px;
+    background-color: #D0D3D4;
+    overflow: hidden;
+    position: relative; }
+    #climat .container-wheather .weather-icon {
+      height: 100px;
+      width: 100px;
+      line-height: 100px;
+      font-size: 35px;
+      text-align: center;
+      background-color: #fff;
+      color: #000;
+      border-radius: 50%; }
+    #climat .container-wheather .icons-left .fa {
+      position: absolute;
+      left: 12%;
+      top: 30%;
+      transition: all 0.5s; }
+      #climat .container-wheather .icons-left .fa:hover {
+        background-color: #000;
+        color: #fff;
+        transform: rotate(360deg); }
+    #climat .container-wheather .icons-right .fa {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transition: all 0.5s; }
+      #climat .container-wheather .icons-right .fa:hover {
+        background-color: #000;
+        color: #fff;
+        transform: rotate(360deg); }
+    #climat .container-wheather .climat-paragraph {
+      font-weight: 600;
+      position: absolute;
+      top: 75%;
+      text-align: center;
+      font-style: italic; }
+  #climat .climat-theme h4 {
+    margin-bottom: 27px; }
+  #climat .climat-theme .climat-theme-paragraph {
+    text-align: justify; }
+
+#galeria {
+  background-color: #f9fcfe; }
+  #galeria h4 {
+    margin-top: 20px; }
+  #galeria .container-item {
+    height: 300px;
+    overflow: hidden; }
+    #galeria .container-item .item-image {
+      height: 100%;
+      transition: all 0.5s;
+      background-repeat: no-repeat; }
+      #galeria .container-item .item-image:hover {
+        transform: scale(1.1);
+        opacity: 0.8; }
+    #galeria .container-item #item-image-1 {
+      background-image: url("../img/galeria_tux.jpg");
+      background-position: center;
+      background-size: cover; }
+    #galeria .container-item #item-image-2 {
+      background-image: url("../img/galeria_lodowiec.jpg");
+      background-position: center;
+      background-size: cover; }
+    #galeria .container-item #item-image-3 {
+      background-image: url("../img/galeria_widok.jpg");
+      background-position: center;
+      background-size: cover; }
+
+#nature {
+  background-color: #f9fcfe;
+  margin-bottom: 30px; }
+  #nature .nature-container {
+    height: 100%;
+    overflow: hidden; }
+    #nature .nature-container .nature-image {
+      background-image: url("../img/swistak_alpy.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+      transition: all 0.5s; }
+      #nature .nature-container .nature-image:hover {
+        transform: scale(1.1);
+        opacity: 0.8; }
+  #nature .nature-description p {
+    text-align: justify; }
+
+#main-footer {
+  padding: 10px 0;
+  text-align: center; }
+  #main-footer .copyright {
+    line-height: 50px;
+    padding-top: 20px;
+    font-size: 0.9em; }
+  #main-footer .social {
+    text-align: center; }
+  #main-footer #footer-nav {
+    line-height: 50px;
+    padding-top: 20px; }
+    #main-footer #footer-nav ul li {
+      display: inline-block;
+      margin-right: 10px; }
+      #main-footer #footer-nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 0.9em; }
+
+#hike {
+  padding-left: 120px; }
+  #hike h4 {
+    text-align: left; }
+  #hike .italic {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 70px; }
+  #hike .sport-container {
+    height: 250px;
+    overflow: hidden; }
+    #hike .sport-container #heikes-image-1 {
+      background-image: url("../img/heikes1.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #hike .sport-container #heikes-image-1:hover {
+        transform: scale(1.1); }
+    #hike .sport-container #heikes-image-2 {
+      background-image: url("../img/heikes2.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #hike .sport-container #heikes-image-2:hover {
+        transform: scale(1.1); }
+  #hike .small-sport-image {
+    position: absolute;
+    left: 230px;
+    top: 0; }
+  #hike .info-sport {
+    line-height: 0.9;
+    font-size: 0.9em; }
+    #hike .info-sport p {
+      text-align: left; }
+
+#bike {
+  padding-left: 120px; }
+  #bike h4 {
+    text-align: left; }
+  #bike .italic {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 70px; }
+  #bike .sport-container {
+    height: 250px;
+    overflow: hidden; }
+    #bike .sport-container #bike-image-1 {
+      background-image: url("../img/bike1.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #bike .sport-container #bike-image-1:hover {
+        transform: scale(1.1); }
+    #bike .sport-container #bike-image-2 {
+      background-image: url("../img/bike2.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #bike .sport-container #bike-image-2:hover {
+        transform: scale(1.1); }
+  #bike .small-sport-image {
+    position: absolute;
+    left: 230px;
+    top: 0; }
+  #bike .info-sport {
+    line-height: 0.9;
+    font-size: 0.9em; }
+    #bike .info-sport p {
+      text-align: left; }
+
+#ski {
+  padding-left: 120px; }
+  #ski h4 {
+    text-align: left; }
+  #ski .italic {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 70px; }
+  #ski .sport-container {
+    height: 250px;
+    overflow: hidden; }
+    #ski .sport-container #ski-image-1 {
+      background-image: url("../img/ski1.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #ski .sport-container #ski-image-1:hover {
+        transform: scale(1.1); }
+    #ski .sport-container #ski-image-2 {
+      background-image: url("../img/ski2.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #ski .sport-container #ski-image-2:hover {
+        transform: scale(1.1); }
+  #ski .small-sport-image {
+    position: absolute;
+    left: 230px;
+    top: 0; }
+  #ski .info-sport {
+    line-height: 0.9;
+    font-size: 0.9em; }
+    #ski .info-sport p {
+      text-align: left; }
+
+#run {
+  padding-left: 120px; }
+  #run h4 {
+    text-align: left; }
+  #run .italic {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 70px; }
+  #run .sport-container {
+    height: 250px;
+    overflow: hidden; }
+    #run .sport-container #run-image-1 {
+      background-image: url("../img/ski2.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #run .sport-container #run-image-1:hover {
+        transform: scale(1.1); }
+    #run .sport-container #run-image-2 {
+      background-image: url("../img/ski-run1.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      background-repeat: no-repeat;
+      transition: all 0.5s; }
+      #run .sport-container #run-image-2:hover {
+        transform: scale(1.1); }
+  #run .small-sport-image {
+    position: absolute;
+    left: 230px;
+    top: 0; }
+  #run .info-sport {
+    line-height: 0.9;
+    font-size: 0.9em; }
+    #run .info-sport p {
+      text-align: left; }
+
+#info-hike .info-sport-describe {
+  text-align: center; }
+
+#info-hike #btn-section {
+  width: auto;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0ed8d6;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 2%;
+  border: 0;
+  transition: all 0.5s linear; }
+  #info-hike #btn-section:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    border: 2px solid #0ed8d6; }
+  #info-hike #btn-section:focus {
+    outline: none;
+    box-shadow: none; }
+
+#info-hike #show {
+  display: none; }
+  #info-hike #show p {
+    text-align: center; }
+
+#info-bike .info-sport-describe {
+  text-align: center; }
+
+#info-bike #btn-section {
+  width: auto;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0ed8d6;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 2%;
+  border: 0;
+  transition: all 0.5s linear; }
+  #info-bike #btn-section:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    border: 2px solid #0ed8d6; }
+  #info-bike #btn-section:focus {
+    outline: none;
+    box-shadow: none; }
+
+#info-bike #show {
+  display: none; }
+  #info-bike #show p {
+    text-align: center; }
+
+#info-ski .info-sport-describe {
+  text-align: center; }
+
+#info-ski #btn-section {
+  width: auto;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0ed8d6;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-radius: 2%;
+  border: 0;
+  transition: all 0.5s linear; }
+  #info-ski #btn-section:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    border: 2px solid #0ed8d6; }
+  #info-ski #btn-section:focus {
+    outline: none;
+    box-shadow: none; }
+
+#info-ski #show {
+  display: none; }
+  #info-ski #show p {
+    text-align: center; }
+
+@media all and (max-width: 991px) {
+  #main-nav {
+    background-color: #fff; }
+    #main-nav.scrolled {
+      background-color: #fff; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li {
+      font-size: 0.8em;
+      text-align: right; }
+      #main-nav #bs-example-navbar-collapse-1 > ul > li a {
+        color: #0ed8d6; }
+    #main-nav .navbar-header .navbar-brand {
+      font-size: 1em; }
+    #main-nav .navbar-toggle {
+      background-color: #0ed8d6; }
+  #climat .container-wheather .weather-icon {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 1.5em;
+    text-align: center; }
+  #climat .container-wheather .icons-left .fa {
+    left: 50%;
+    top: 30%; }
+  #climat .container-wheather .icons-right .fa {
+    top: 30%;
+    left: 30%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 20%; }
+  #climat .climat-theme {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  section h2 {
+    font-size: 1.5em; }
+  #about .slide::after {
+    left: 470px; }
+  #nature .nature-description {
+    margin-top: 40px; }
+  #hike,
+  #bike,
+  #ski,
+  #run {
+    padding-left: 0; }
+    #hike h4,
+    #bike h4,
+    #ski h4,
+    #run h4 {
+      text-align: center;
+      margin-top: 20px; }
+    #hike .italic,
+    #bike .italic,
+    #ski .italic,
+    #run .italic {
+      text-align: center;
+      margin-bottom: 40px; }
+    #hike .info-sport p,
+    #bike .info-sport p,
+    #ski .info-sport p,
+    #run .info-sport p {
+      text-align: center; }
+    #hike .info-sport .paragraph-last,
+    #bike .info-sport .paragraph-last,
+    #ski .info-sport .paragraph-last,
+    #run .info-sport .paragraph-last {
+      margin-bottom: 40px; }
+    #hike .small-sport-image,
+    #bike .small-sport-image,
+    #ski .small-sport-image,
+    #run .small-sport-image {
+      display: none; }
+  #main-footer #footer-nav ul li {
+    margin-right: 30px; }
+  hr {
+    display: none; }
+  section {
+    padding: 40px 0; } }
+
+@media all and (max-width: 768px) {
+  #main-nav {
+    background-color: #fff; }
+    #main-nav.scrolled {
+      background-color: #fff; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li {
+      font-size: 0.8em;
+      text-align: right; }
+      #main-nav #bs-example-navbar-collapse-1 > ul > li a {
+        color: #0ed8d6; }
+    #main-nav .navbar-header .navbar-brand {
+      font-size: 1em; }
+    #main-nav .navbar-toggle {
+      background-color: #0ed8d6; }
+  section p {
+    font-size: 0.8em; } }
+
+@media all and (max-width: 481px) {
+  #about .slide::after {
+    left: 300px; }
+  #climat .container-wheather .icons-left .fa {
+    left: 55%;
+    top: 30%; }
+  #climat .container-wheather .icons-right .fa {
+    top: 30%;
+    left: 30%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 20%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 13%; } }

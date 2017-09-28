@@ -1,0 +1,30 @@
+@mixin image-background($url, $position, $size) {
+    background-image: url($url);
+    background-position: $position;
+    background-size: $size;
+}
+
+@mixin sport-container {
+    height: 250px;
+    overflow: hidden;
+}
+
+@mixin absolute-icons {
+    position: absolute;
+    left: 230px;
+    top: 0;
+}
+
+@mixin button {
+    width: auto;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $hover-color;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 2%;
+    border: 0;
+}

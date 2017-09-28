@@ -1,0 +1,106 @@
+@media all and (max-width: 991px) {
+  #main-nav {
+    background-color: #fff; }
+    #main-nav.scrolled {
+      background-color: #fff; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li {
+      font-size: 0.8em;
+      text-align: right; }
+      #main-nav #bs-example-navbar-collapse-1 > ul > li a {
+        color: #0ed8d6; }
+    #main-nav .navbar-header .navbar-brand {
+      font-size: 1em; }
+    #main-nav .navbar-toggle {
+      background-color: #0ed8d6; }
+  #climat .container-wheather .weather-icon {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 1.5em;
+    text-align: center; }
+  #climat .container-wheather .icons-left .fa {
+    left: 50%;
+    top: 30%; }
+  #climat .container-wheather .icons-right .fa {
+    top: 30%;
+    left: 30%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 20%; }
+  #climat .climat-theme {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  section h2 {
+    font-size: 1.5em; }
+  #about .slide::after {
+    left: 470px; }
+  #nature .nature-description {
+    margin-top: 40px; }
+  #hike,
+  #bike,
+  #ski,
+  #run {
+    padding-left: 0; }
+    #hike h4,
+    #bike h4,
+    #ski h4,
+    #run h4 {
+      text-align: center;
+      margin-top: 20px; }
+    #hike .italic,
+    #bike .italic,
+    #ski .italic,
+    #run .italic {
+      text-align: center;
+      margin-bottom: 40px; }
+    #hike .info-sport p,
+    #bike .info-sport p,
+    #ski .info-sport p,
+    #run .info-sport p {
+      text-align: center; }
+    #hike .info-sport .paragraph-last,
+    #bike .info-sport .paragraph-last,
+    #ski .info-sport .paragraph-last,
+    #run .info-sport .paragraph-last {
+      margin-bottom: 40px; }
+    #hike .small-sport-image,
+    #bike .small-sport-image,
+    #ski .small-sport-image,
+    #run .small-sport-image {
+      display: none; }
+  #main-footer #footer-nav ul li {
+    margin-right: 30px; }
+  hr {
+    display: none; }
+  section {
+    padding: 40px 0; } }
+
+@media all and (max-width: 768px) {
+  #main-nav {
+    background-color: #fff; }
+    #main-nav.scrolled {
+      background-color: #fff; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li {
+      font-size: 0.8em;
+      text-align: right; }
+      #main-nav #bs-example-navbar-collapse-1 > ul > li a {
+        color: #0ed8d6; }
+    #main-nav .navbar-header .navbar-brand {
+      font-size: 1em; }
+    #main-nav .navbar-toggle {
+      background-color: #0ed8d6; }
+  section p {
+    font-size: 0.8em; } }
+
+@media all and (max-width: 481px) {
+  #about .slide::after {
+    left: 300px; }
+  #climat .container-wheather .icons-left .fa {
+    left: 55%;
+    top: 30%; }
+  #climat .container-wheather .icons-right .fa {
+    top: 30%;
+    left: 30%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 20%; }
+  #climat .container-wheather .climat-paragraph {
+    left: 13%; } }

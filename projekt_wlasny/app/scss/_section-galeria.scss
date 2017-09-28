@@ -1,0 +1,30 @@
+@import'variables';
+@import 'mixins';
+#galeria {
+    background-color: $background-section;
+    h4 {
+        margin-top: 20px;
+    }
+    .container-item {
+        height: 300px;
+        overflow: hidden;
+        .item-image {
+            height: 100%;
+            transition: all 0.5s;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+        #item-image-1 {
+            @include image-background('../img/galeria_tux.jpg', center, cover);
+        }
+        #item-image-2 {
+            @include image-background('../img/galeria_lodowiec.jpg', center, cover);
+        }
+        #item-image-3 {
+            @include image-background('../img/galeria_widok.jpg', center, cover);
+        }
+    }
+}

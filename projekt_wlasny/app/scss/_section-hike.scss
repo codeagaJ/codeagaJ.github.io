@@ -1,0 +1,44 @@
+@import'variables';
+@import 'mixins';
+#hike {
+    padding-left: 120px;
+    h4 {
+        text-align: left;
+    }
+    .italic {
+        text-align: left;
+        font-style: italic;
+        margin-bottom: 70px;
+    }
+    .sport-container {
+        @include sport-container;
+        #heikes-image-1 {
+            @include image-background('../img/heikes1.jpg', center, cover);
+            height: 250px;
+            background-repeat: no-repeat;
+            transition: all 0.5s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        #heikes-image-2 {
+            @include image-background('../img/heikes2.jpg', center, cover);
+            height: 250px;
+            background-repeat: no-repeat;
+            transition: all 0.5s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .small-sport-image {
+        @include absolute-icons;
+    }
+    .info-sport {
+        line-height: 0.9;
+        font-size: 0.9em;
+        p {
+            text-align: left;
+        }
+    }
+}
