@@ -340,6 +340,12 @@ span {
     color: #fff;
     font-size: 30px;
 }
+#portfolio .portfolio-items .single-portfolio-item-mask .single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner .mountain-link {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 600;
+}
 
 
 /*section portfolio stop*/
