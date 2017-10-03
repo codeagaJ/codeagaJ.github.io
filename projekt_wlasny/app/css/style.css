@@ -572,8 +572,12 @@ hr {
     top: 30%; }
   #climat .container-wheather .icons-right .fa {
     top: 30%;
-    left: 30%; }
+    left: 28%; }
   #climat .container-wheather .climat-paragraph {
     left: 20%; }
   #climat .container-wheather .climat-paragraph {
-    left: 13%; } }
+    left: 13%; }
+  section h2 {
+    font-size: 1.1em; }
+  #about .slide {
+    font-size: 0.9em; } }
