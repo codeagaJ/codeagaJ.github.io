@@ -112,6 +112,7 @@ section h2 {
 /*section skills start*/
 
 
+/*
 #skills p {
     text-align: center;
 }
@@ -124,6 +125,38 @@ section h2 {
 .skills-icons figure img {
     margin-bottom: 20px;
 }
+*/
+
+ #skills #text {
+    position: relative;
+    float: left;
+    font-size: 1.8em;
+    background-color: #fff;
+     font-family: "Courier New", monospace;
+     text-transform: uppercase;
+     font-weight: 600;
+     text-align: center;
+}
+
+ #skills #text > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+     height: 100%;
+    background-color: #fff;
+    border-left: 1px solid tranparent;
+    animation: text 10s steps(31,start) infinite, znak 1s step-end infinite; 
+}
+@keyframes text  {
+    0% {width: 100%;}
+    100% {width: 0%;}
+}
+
+@keyframe znak {
+    0% {border-left-color: transparent;}
+    50% {border-left-color: #000;}
+    100% {border-left-color: transparent;}
+} 
 
 
 /*section skills stop*/
