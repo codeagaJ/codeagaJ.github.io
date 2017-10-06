@@ -14,13 +14,14 @@ body {
 }
 
 #bs-example-navbar-collapse-1>ul>li>a {
-    color: #1ac056;
+    color: #213b50;
+    font-weight: 700;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
 }
 
 #bs-example-navbar-collapse-1>ul>li>a:hover {
-    color: #291f1a;
+    color: #1ac056;
 }
 
 
@@ -31,7 +32,7 @@ body {
 
 #main-header {
     /*    background-image: url('../img/background_tlo.jpg');*/
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/header-background.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/bacground1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -50,11 +51,12 @@ body {
 #main-header .main-header-content h1 {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #main-header .main-header-content h2 {
     color: #fff;
+    font-weight: 600;
 }
 
 span {
@@ -89,23 +91,7 @@ section h2 {
     background-color: #f9fcfe;
 }
 
-/*
-#about figure {
-    margin: 0;
-    text-align: center;
-}
 
-#about figure img {
-    max-height: 350px;
-    max-width: 100%;
-    border: 15px solid #fff;
-    border-radius: 15px;
-}
-
-#about article {
-    text-align: justify;
-}
-*/
 #about {
     padding-top: 50px
 }
@@ -153,7 +139,7 @@ section h2 {
      height: 100%;
     background-color: #fff;
     border-left: 1px solid tranparent;
-    animation: write 10s steps(31,start) infinite, sight 1s step-end infinite; 
+    animation: write 5s steps(31,start) infinite, sight 1s step-end infinite; 
     -webkit-animation: write 10s steps(25,start) infinite, sight 1s step-end infinite;
 }
 @keyframes write  {
@@ -199,7 +185,6 @@ section h2 {
     background-image: url('../icons/css3.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    box-shadow: 0 0 5px 10px #fff inset;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
@@ -208,15 +193,15 @@ background-image: url('../icons/html5.png');
 }
 
 #skills .container-box .box #box-icon2 {
-background-image: url('../icons/css.png');
+background-image: url('../icons/css3.png');
 }
 
 #skills .container-box .box #box-icon3 {
-background-image: url('../icons/javascript.png');
+background-image: url('../icons/java-script.png');
 }
 
 #skills .container-box .box #box-icon4 {
-background-image: url('../icons/javascript.png');
+background-image: url('../icons/java-script.png');
 }
 
 #skills .container-box .box .box-back {
@@ -227,24 +212,16 @@ background-image: url('../icons/javascript.png');
     line-height: 220px;
     text-align: center;
     font-size: 2em;
+    background-color: #000;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
-    box-shadow: 0 0 5px 10px #fff inset;
+    
 }
 
-.bg-yellow {
-    background-color: #e4b700;
-}
 
-.bg-orange {
-    background-color: orange;
-}
 
-.bg-blue {
-    background-color: deepskyblue;
-}
 
 
 
@@ -325,8 +302,10 @@ background-image: url('../icons/javascript.png');
 /*section contact styles start*/
 
 #contact {
-    background-color: #213b50;
+/*    background-color: #213b50;*/
     color: #fff;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bacground2.jpg');
+    background-size: cover;
 }
 
 #contact h2 {
@@ -335,7 +314,8 @@ background-image: url('../icons/javascript.png');
 
 #contact .contact-data address {
     font-style: normal;
-    margin: 70px 0;
+    margin: 20px 0;
+   
 }
 
 #contact .contact-data address a {
@@ -353,6 +333,7 @@ background-image: url('../icons/javascript.png');
     border: 1px solid #fff;
     font-size: 25px;
     transition: all 0.5s linear;
+    margin-top: 120px;
 }
 
 #contact .contact-data .contact-social-icons a .fa:hover {
@@ -363,7 +344,6 @@ background-image: url('../icons/javascript.png');
 #contact .contact-form input:not([type='submit']),
 #contact .contact-form textarea {
     width: 100%;
-    background-color: #2b4a64;
     margin-bottom: 25px;
     padding: 15px 25px;
     border: 0 solid #2b4a64;
@@ -377,7 +357,8 @@ background-image: url('../icons/javascript.png');
 
 #contact .contact-form input:not([type='submit']):focus,
 #contact .contact-form textarea:focus {
-    background-color: #426684;
+    background-color: lightgray;
+    outline: none;
 }
 
 #contact .contact-form input[type='submit'] {
@@ -385,15 +366,17 @@ background-image: url('../icons/javascript.png');
     float: right;
     text-transform: uppercase;
     color: #fff;
-    background-color: #1ac056;
-    border: 1px solid #1ac056;
+/*    background-color: #1ac056;*/
+    background-color: #213b50;
+    border: 1px solid #213b50;
     padding: 15px 30px;
     transition: all 0.4s linear;
 }
 
 #contact .contact-form input[type='submit']:hover {
-    color: #1ac056;
+    color: #213b50;
     background-color: #fff;
+    outline: none;
 }
 
 
