@@ -89,6 +89,7 @@ section h2 {
     background-color: #f9fcfe;
 }
 
+/*
 #about figure {
     margin: 0;
     text-align: center;
@@ -104,38 +105,45 @@ section h2 {
 #about article {
     text-align: justify;
 }
+*/
+#about {
+    padding-top: 50px
+}
+#about .team-image {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#about #team-item-1 {
+    background-image: url(../img/aga.jpg);
+}
 
-
+#about .about-introduction {
+    margin-top: 50px;
+    text-align: center;
+}
 /*section about stop*/
 
 
 /*section skills start*/
 
 
-/*
-#skills p {
-    text-align: center;
-}
-
-.skills-icons {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.skills-icons figure img {
-    margin-bottom: 20px;
-}
-*/
-
  #skills #text {
     position: relative;
     float: left;
-    font-size: 1.8em;
+    font-size: 2.2em;
     background-color: #fff;
      font-family: "Courier New", monospace;
      text-transform: uppercase;
      font-weight: 600;
-     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     left: 30%;
+     letter-spacing: 2px;
+     
 }
 
  #skills #text > span {
@@ -145,18 +153,99 @@ section h2 {
      height: 100%;
     background-color: #fff;
     border-left: 1px solid tranparent;
-    animation: text 10s steps(31,start) infinite, znak 1s step-end infinite; 
+    animation: write 10s steps(31,start) infinite, sight 1s step-end infinite; 
+    -webkit-animation: write 10s steps(25,start) infinite, sight 1s step-end infinite;
 }
-@keyframes text  {
+@keyframes write  {
     0% {width: 100%;}
     100% {width: 0%;}
 }
 
-@keyframe znak {
+@keyframe sight {
     0% {border-left-color: transparent;}
     50% {border-left-color: #000;}
     100% {border-left-color: transparent;}
 } 
+
+#skills .container-box {
+    width: 180px;
+    height: 220px;
+    margin: 0 auto;
+    perspective: 250px;
+    -webkit-perspective: 300px;
+    margin-top: 50px;
+}
+#skills .container-box .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition:  1s;
+    -webkit-transition: 1s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: perserve-3d;
+    
+    
+}
+
+#skills .container-box:hover >  .box {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#skills .container-box .box .box-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../icons/css3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 5px 10px #fff inset;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+#skills .container-box .box #box-icon1 {
+background-image: url('../icons/html5.png');
+}
+
+#skills .container-box .box #box-icon2 {
+background-image: url('../icons/css.png');
+}
+
+#skills .container-box .box #box-icon3 {
+background-image: url('../icons/javascript.png');
+}
+
+#skills .container-box .box #box-icon4 {
+background-image: url('../icons/javascript.png');
+}
+
+#skills .container-box .box .box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 220px;
+    text-align: center;
+    font-size: 2em;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    box-shadow: 0 0 5px 10px #fff inset;
+}
+
+.bg-yellow {
+    background-color: #e4b700;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: deepskyblue;
+}
+
 
 
 /*section skills stop*/
