@@ -21,7 +21,7 @@ body {
 }
 
 #bs-example-navbar-collapse-1>ul>li>a:hover {
-    color: #1ac056;
+    color: #0ed8d6;
 }
 
 
@@ -110,6 +110,34 @@ section h2 {
 #about .about-introduction {
     margin-top: 50px;
     text-align: center;
+}
+
+#about  .show p {
+    display: none;
+}
+
+#about #btn-about {
+    width: auto;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.5s;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#about #btn-about:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    outline: none;
+}
+
+#about #btn-about:focus {
+    outline: none;
 }
 /*section about stop*/
 
@@ -367,14 +395,14 @@ background-image: url('../icons/java-script.png');
     text-transform: uppercase;
     color: #fff;
 /*    background-color: #1ac056;*/
-    background-color: #213b50;
-    border: 1px solid #213b50;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
     padding: 15px 30px;
     transition: all 0.4s linear;
 }
 
 #contact .contact-form input[type='submit']:hover {
-    color: #213b50;
+    color: #0ed8d6;
     background-color: #fff;
     outline: none;
 }
