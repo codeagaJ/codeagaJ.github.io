@@ -19,7 +19,7 @@
         font-family: FontAwesome;
         position: absolute;
         left: 680px;
-        color: rgb(112, 128, 144);
+        color: $hover-color;
     }
     .slide-down::after {
         content: "\f078";

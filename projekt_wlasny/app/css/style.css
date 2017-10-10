@@ -83,7 +83,7 @@ hr {
     font-family: FontAwesome;
     position: absolute;
     left: 680px;
-    color: slategray; }
+    color: #0ed8d6; }
   #about .slide-down::after {
     content: "\f078";
     font-family: FontAwesome; }
@@ -99,6 +99,11 @@ hr {
     transition: all 0.4s; }
     #activities .container-image:hover {
       background-color: #B3B6B7; }
+  #activities #image1-show,
+  #activities #image2-show,
+  #activities #image3-show,
+  #activities #image4-show {
+    display: none; }
   #activities img {
     margin-top: 40px;
     margin-left: 25px; }
@@ -113,6 +118,8 @@ hr {
     font-style: italic; }
     #activities p:hover {
       color: #0ed8d6; }
+  #activities .paragraph-show {
+    display: none; }
 
 #climat {
   background-color: #f7f7f7; }

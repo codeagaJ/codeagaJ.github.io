@@ -9,7 +9,17 @@
         &:hover {
             background-color: $hover-container-image-color;
         }
+      
     }
+    
+    #image1-show,
+    #image2-show,
+    #image3-show,
+    #image4-show {
+        display: none;
+    }
+   
+    
     img {
         margin-top: 40px;
         margin-left: 25px;
@@ -28,4 +38,8 @@
             color: $hover-color;
         }
     }
+    .paragraph-show {
+        display: none;
+    }
+    
 }
