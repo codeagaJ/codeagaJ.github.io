@@ -229,11 +229,15 @@ hr {
     padding-top: 20px; }
     #main-footer #footer-nav ul li {
       display: inline-block;
-      margin-right: 10px; }
+      margin-right: 8px;
+      font-size: 0.9em; }
       #main-footer #footer-nav ul li a {
         text-decoration: none;
         color: #000;
-        font-size: 0.9em; }
+        font-size: 1em;
+        transition: all 0.5s linear; }
+        #main-footer #footer-nav ul li a:hover {
+          color: #0ed8d6; }
 
 #hike {
   padding-left: 120px; }

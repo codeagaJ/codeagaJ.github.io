@@ -1,7 +1,5 @@
 
-$(document).ready(function() {
-    
-});
+
 
 $(window).scroll(function() {
     navAddClass();
