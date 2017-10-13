@@ -8,10 +8,10 @@
     font-weight: 600;
     font-size: 1.3em;
     transition: all 0.4s;
-    .scrolled {
+    &.scrolled {
         background-color: rgba(14,216,214, 0.85);
-    }
     
+    }
     .navbar-header .navbar-brand {
         color: #fff;    
         font-family:  'Droid Serif', serif;
@@ -37,3 +37,5 @@
     }
     
 }
+
+
