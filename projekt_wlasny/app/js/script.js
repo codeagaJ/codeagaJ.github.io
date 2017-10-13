@@ -55,26 +55,5 @@ $(document).ready(function() {
 
 
                 
-//$(window).scroll(function() {
-//    iconShow();
-//});
-//function iconShow() {
-//    var navHeight = $('.container-image').height();
-//    
-//   
-//    
-//    var windoSrollPosition =$(window).scrollTop();
-//   
-//    if(windoSrollPosition >= navHeight) {
-//        $("#image1-show").delay(2000).fadeIn(500);
-//    $("#image2-show").delay(3000).fadeIn(500);
-//    $("#image3-show").delay(4000).fadeIn(500);
-//    $("#image4-show").delay(5000).fadeIn(500);
-//    $('.paragraph-show').delay(5000).fadeIn(500);
-//    }else {
-//       $('.container-image').hide();
-//        $('.paragraph-show').hide();
-//    }
-//}
-//   
+
 
