@@ -217,19 +217,19 @@ section h2 {
     -webkit-backface-visibility: hidden;
 }
 #skills .container-box .box #box-icon1 {
-background-image: url('../icons/iconmonstr-code-1.svg');
+background-image: url('../icons/html5.png');
 }
 
 #skills .container-box .box #box-icon2 {
-background-image: url('../icons/iconmonstr-code-4.svg');
+background-image: url('../icons/css3.png');
 }
 
 #skills .container-box .box #box-icon3 {
-background-image: url('../icons/iconmonstr-code-5.svg');
+background-image: url('../icons/java-script.png');
 }
 
 #skills .container-box .box #box-icon4 {
-background-image: url('../icons/iconmonstr-code-5.svg');
+background-image: url('../icons/java-script.png');
 }
 
 #skills .container-box .box .box-back {
