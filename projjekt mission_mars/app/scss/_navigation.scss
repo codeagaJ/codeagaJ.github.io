@@ -1,0 +1,22 @@
+@import'variables';
+
+#main-nav {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    &.scrolled {
+        background-color:rgba(0,0,0, 0.7)
+      
+    }
+   
+    #bs-example-navbar-collapse-1 >ul >li >a {
+        color: #fff;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        
+        &:hover {
+            font-weight: 700;
+        }
+    }
+}

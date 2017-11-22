@@ -1,0 +1,17 @@
+@import'variables';
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: $base-font;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+        
+}

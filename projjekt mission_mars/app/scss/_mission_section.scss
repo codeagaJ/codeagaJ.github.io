@@ -1,0 +1,50 @@
+@import'variables';
+@import'mixins';
+
+#mission {
+    text-align: center;
+    
+    .mission-img {
+        height: 260px;
+        width: 260px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .mission-mask {
+            position: relative;
+            background-color: rgba(167, 103, 100, 0.55);
+            height: 100%;
+            border-radius: 50%;
+            width: 100%;
+            opacity: 0;
+            position: relative;
+            transition: all 0.5s;
+            &:hover {
+                opacity: 1;
+                border: 3px solid #942c2c;
+            }
+            
+            .mission-mask-content {
+                position: absolute;
+                transform: translateY(-50%);
+                top: 50%;
+                left: 30px;
+                .content {
+                    color: #fff;
+                    margin: 0 auto;
+                    
+                }
+            }
+        }
+    }
+    #mission1 {
+        @include image-background("../img/rower_1.jpg", cover, center);
+    }
+    #mission2 {
+        @include image-background("../img/rower2.jpg", cover, center);
+    }
+    #mission3 {
+        @include image-background("../img/mission_mars.jpg", cover, center);
+    }
+}

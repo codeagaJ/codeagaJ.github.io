@@ -1,0 +1,35 @@
+@import'variables';
+@import'mixins';
+
+#about {
+    text-align: center;
+    background-color: #fbe9e7;
+    .about-describe {
+        text-align: center;
+    }
+    
+    p {
+         margin-top: 30px;
+    }
+    #btn-section {
+        @include button;
+        transition: all 0.5s linear;
+        &:hover {
+            background-color: #fff;
+            color:  $color-btn;
+            border: 2px solid  $color-btn;
+        }
+        &:focus {
+            outline: none;
+            box-shadow: none;
+            
+        }
+    }
+    #show {
+        display: none;
+        p {
+            text-align: center;
+           
+        }
+    }
+}

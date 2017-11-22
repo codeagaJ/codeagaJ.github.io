@@ -1,0 +1,19 @@
+@mixin image-background($url,$size, $position) {
+    background-image: url($url);
+    background-size: $size;
+    background-position: $position;
+}
+
+@mixin button {
+    width: 15%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $color-btn;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 2%;
+    border: 0;
+}

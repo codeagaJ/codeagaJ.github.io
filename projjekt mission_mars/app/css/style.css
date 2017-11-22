@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px; }
+
+section {
+  padding: 80px 0; }
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+#main-header {
+  background-image: url("../img/background_header.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif; }
+  #main-header .main-header-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase; }
+    #main-header .main-header-inner h1 {
+      font-weight: 600;
+      font-size: 2em; }
+    #main-header .main-header-inner h2 {
+      font-size: 1.7em;
+      font-weight: 600;
+      letter-spacing: 2px; }
+
+#main-nav {
+  background-color: transparent;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em; }
+  #main-nav.scrolled {
+    background-color: rgba(0, 0, 0, 0.7); }
+  #main-nav #bs-example-navbar-collapse-1 > ul > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s; }
+    #main-nav #bs-example-navbar-collapse-1 > ul > li > a:hover {
+      font-weight: 700; }
+
+#mission {
+  text-align: center; }
+  #mission .mission-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    #mission .mission-img .mission-mask {
+      position: relative;
+      background-color: rgba(167, 103, 100, 0.55);
+      height: 100%;
+      border-radius: 50%;
+      width: 100%;
+      opacity: 0;
+      position: relative;
+      transition: all 0.5s; }
+      #mission .mission-img .mission-mask:hover {
+        opacity: 1;
+        border: 3px solid #942c2c; }
+      #mission .mission-img .mission-mask .mission-mask-content {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 30px; }
+        #mission .mission-img .mission-mask .mission-mask-content .content {
+          color: #fff;
+          margin: 0 auto; }
+  #mission #mission1 {
+    background-image: url("../img/rower_1.jpg");
+    background-size: cover;
+    background-position: center; }
+  #mission #mission2 {
+    background-image: url("../img/rower2.jpg");
+    background-size: cover;
+    background-position: center; }
+  #mission #mission3 {
+    background-image: url("../img/mission_mars.jpg");
+    background-size: cover;
+    background-position: center; }
+
+#about {
+  text-align: center;
+  background-color: #fbe9e7; }
+  #about .about-describe {
+    text-align: center; }
+  #about p {
+    margin-top: 30px; }
+  #about #btn-section {
+    width: 15%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 2%;
+    border: 0;
+    transition: all 0.5s linear; }
+    #about #btn-section:hover {
+      background-color: #fff;
+      color: #ff7f50;
+      border: 2px solid #ff7f50; }
+    #about #btn-section:focus {
+      outline: none;
+      box-shadow: none; }
+  #about #show {
+    display: none; }
+    #about #show p {
+      text-align: center; }
+
+#contact {
+  background-image: url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center; }
+  #contact h3,
+  #contact p {
+    color: #fff; }
+  #contact .contact-paragraph {
+    margin-bottom: 40px; }
+  #contact input:not([type='submit']),
+  #contact textarea {
+    width: 100%;
+    border: 0 solid;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 5px; }
+    #contact input:not([type='submit']):focus,
+    #contact textarea:focus {
+      outline: none;
+      box-shadow: none;
+      background-color: antiquewhite; }
+  #contact input:not(last-child) {
+    margin-bottom: 30px; }
+  #contact input[type='submit'] {
+    text-transform: uppercase;
+    width: 20%;
+    padding: 20px 10px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: 0;
+    transition: all 0.5s; }
+    #contact input[type='submit']:hover {
+      background-color: #fff;
+      color: #ff7f50; }
+  #contact ::-webkit-input-placeholder {
+    color: #777777; }
+  #contact ::-moz-placeholder {
+    color: #777777; }
+  #contact ::-ms-input-placeholder {
+    color: #777777; }
