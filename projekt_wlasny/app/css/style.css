@@ -242,6 +242,10 @@ hr {
         #main-footer #footer-nav ul li a:hover {
           color: #0ed8d6; }
 
+#header .no-padding {
+  padding-right: 0;
+  padding-left: 0; }
+
 #hike {
   padding-left: 120px; }
   #hike h4 {
@@ -404,7 +408,7 @@ hr {
 #info-hike #btn-section {
   width: auto;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   background-color: #0ed8d6;
   color: #fff;
@@ -433,7 +437,7 @@ hr {
 #info-bike #btn-section {
   width: auto;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   background-color: #0ed8d6;
   color: #fff;
@@ -462,7 +466,7 @@ hr {
 #info-ski #btn-section {
   width: auto;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   background-color: #0ed8d6;
   color: #fff;

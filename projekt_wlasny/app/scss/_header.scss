@@ -1,0 +1,9 @@
+@import'variables';
+@import 'mixins';
+
+#header {
+    .no-padding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
